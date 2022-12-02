@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'clashdisplay-bold-webfont';
+    src: url('fonts/clashdisplay-bold-webfont.woff2') format('woff2'),
+         url('fonts/clashdisplay-bold-webfont.woff') format('woff')
+}
+
+body {
+    background-color: greenyellow;
+}
+
+img {
+    margin: 7px;
+    width: 90%;
+    height: 90vh;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 150px;
+    border: solid 1px;
+    padding: 1rem;
+    opacity: 0.5;
+}
+
+h2 {
+    font-family: 'Clash Display', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 40vh;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);   
+    background-color: greenyellow;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Satoshi', sans-serif;
+}
+a:hover {
+    color: blue;
+}
+
+footer {
+    line-height: 10%;
+    display: flex;
+}
+
+footer a {
+    margin-left: 5%;
+}
+
+ol{
+    font-family: 'Satoshi', sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+
+    body {
+        background-color: greenyellow;
+    }
+    
+    img {
+        width: 99%;
+        height: 96vh;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: 200px;
+        border: solid 1px;
+        padding: 1rem;
+        align-items: center;
+        opacity: 0.5;
+    }
+    
+    h2 {
+        font-family: 'clashdisplay-bold-webfont';
+    }
+    
+    .master{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        margin: auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        width: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid;
+        border-radius: 500px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);   
+        background-color: greenyellow;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Satoshi', sans-serif;
+    }
+    a:hover {
+        color: blue;
+    }
+    
+    footer {
+        line-height: 10%;
+        padding: 1vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    ol{
+        font-family: 'Satoshi', sans-serif;
+    }
+    
+    .footer {
+        margin: 1vh;
+    }
+    
+    .wrap {
+        margin: auto;
+    }
+    
+}
